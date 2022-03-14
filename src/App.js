@@ -56,7 +56,8 @@ function App() {
     console.log(list)
     const updateMockList={
       id: mockList.length+1,
-      list: list
+      list: list,
+      tasks:[]
     }
     setmockList([...mockList,updateMockList])
     console.log(mockList)
